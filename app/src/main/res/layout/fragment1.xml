@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:clickable="false">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Routines:"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fc020a"
+        android:id="@+id/textView"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/text"
+        android:layout_alignEnd="@+id/text" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Beginner work out program"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:onClick="sendMessage"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Intermediate work out program"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#060606"
+        android:textSize="25dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="32dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Gyms Near By"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#64ca29"
+        android:id="@+id/text"
+        android:onClick="sendMessage1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="title_activity_routine">Routine</string>
+    <string name="title_activity_second">Beginner Work Out Routine</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="str_btn_find">Find</string>
+    <string name="label_btn_find">Find</string>
+    <string name="gym">gym</string>
+
+
+</resources>
